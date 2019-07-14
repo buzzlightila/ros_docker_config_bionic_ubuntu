@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Starting docker ros..."
 docker start ros
 echo "Geting xauth code.."
