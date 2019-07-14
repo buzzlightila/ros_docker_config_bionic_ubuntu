@@ -8,3 +8,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-kinetic-ros-tutorials \
     && rosdep update \
     && rm -rf /var/lib/apt/lists/*
+VOLUME ["/home", "/home"]
