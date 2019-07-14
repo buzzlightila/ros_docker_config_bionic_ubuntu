@@ -11,7 +11,3 @@ docker exec -ti <CONTAINER ID> /bin/bash
 ```
 ./exec_ros.sh
 ```
-## If dont u wanna start all the time when boot computer...
-```
-cp ./exec_ros.sh /etc/init.d/
-```
